@@ -31,7 +31,7 @@ export default function HomeScreen() {
               web: 'F12',
             })}
           </ThemedText>{' '}
-          to open developer tools.
+          mds do ceu
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
@@ -44,10 +44,10 @@ export default function HomeScreen() {
         <ThemedText type="subtitle">OPALA MELHOR QUE UP TSI</ThemedText>
         <ThemedText>
           {`When you're ready, run `}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
+          <ThemedText type="defaultSemiBold">não</ThemedText> to get a fresh{' '}
+          <ThemedText type="defaultSemiBold">app</ThemedText> amarelo verde{' '}
           <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+          <ThemedText type="defaultSemiBold">oxe</ThemedText>.
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>

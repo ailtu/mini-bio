@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "mini-bio",
+    "slug": "mini-bio",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,14 +9,16 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ailtuu.minibio"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.ailtuu.minibio"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +39,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "aaf07da1-0401-4d96-8235-7274a2c003c4"
+      }
+    },
+    "owner": "ailtuu",
+    "updates": {
+      "url": "https://u.expo.dev/aaf07da1-0401-4d96-8235-7274a2c003c4"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
